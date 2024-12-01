@@ -33,6 +33,7 @@ h2::first-letter {
     color: rgb(42, 6, 246);
     text-decoration:underline
 }
-section:hover {
-    background-color: rgb(239, 194, 134);
+.hover-image {
+    max-width: 200px;
+    height: auto;
 }
