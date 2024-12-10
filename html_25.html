@@ -1,61 +1,127 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html lang="Ru-Ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Сифилис</title>
+    <meta name="description" content="The HTML5 sample">
+    <meta name="author" content="from internet">
     <link rel="stylesheet" href="css\s25.css">
-    <title>Стоматологическое Превосходство</title>
 </head>
+
 <body>
     <header>
-        <h1>Стоматологическое Превосходство</h1>
-        <p>Ваша улыбка — наш приоритет</p>
+        <hr>
+        <p><a name="top"></a></p>
+        <h1>
+            Венерическое инфекционное заболевание
+        </h1>
+        <hr>
     </header>
     <nav>
-        <a href="#services">Услуги</a>
-        <a href="#about">О нас</a>
-        <a href="#contact">Контакты</a>
+    меню:
+    <p>
+    <ul>
+        <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%84%D0%B8%D0%BB%D0%B8%D1%81">wikipedia</a></li>
+        <li><a href="#sifa">Общая информация</a></li>
+        <li><a href="#sympthtoms">Симптомы</a></li>
+        <li><a href="#diagnosis">Диагностика</a></li>
+        <li><a href="#cure">Лечение</a></li>    
+        <li><a href="#history">Источник информации</a></li>
+        <li><a href="#link">Ссылка на источник в сети интернет</a></li>
+    </ul>
+    </p>
     </nav>
-    <section class="hero">
-        <h1>Добро пожаловать в премиальную стоматологию</h1>
-        <p>Современные методы для вашей идеальной улыбки.</p>
-        <a href="#services" class="button">Посмотреть услуги</a>
-    </section>
-    <section class="services" id="services">
-        <h2>Наши услуги</h2>
-        <div class="card-container">
-            <div class="card">
-                <img src="data:image/jpeg;base64,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" alt="Услуга 1">
-                <h3>Общая стоматология</h3>
-                <p>Комплексный уход для всей семьи.</p>
-            </div>
-            <div class="card">
-                <img src="https://akdenizdental.com/images/homepage-1/service/service-04b.jpg" alt="Услуга 2">
-                <h3>Косметическая стоматология</h3>
-                <p>Улучшите улыбку с передовыми методами.</p>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFltroKL_-ozEV78Acp31OJ-elEu7eiEMWUA&s" alt="Услуга 3">
-                <h3>Ортодонтия</h3>
-                <p>Выравнивание зубов для здоровья и уверенности.</p>
-            </div>
-        </div>
-    </section>
-    <section class="about" id="about">
-        <h2>О нас</h2>
-        <p>В "Стоматологическом Превосходстве" мы стремимся предоставлять стоматологические услуги высшего качества в комфортной и современной обстановке. Наша опытная команда заботится о том, чтобы ваша улыбка оставалась здоровой и красивой.</p>
-    </section>
-    <section class="contact" id="contact">
-        <h2>Контакты</h2>
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Ваше имя" required>
-            <input type="email" name="email" placeholder="Ваш email" required>
-            <textarea name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
-            <button type="submit">Отправить сообщение</button>
-        </form>
-    </section>
+    <main>
+        <header>
+            <h2>Сифилис</h2>
+            <hr>
+        </header>
+
+        <article>
+            <header>
+                <h2>Сифилис</h2>
+            </header>
+            <p><a name="sifa"></a></p>
+            <section1>
+                <h4>Общая информация</h4>
+                <div class=".photo1"><img src="https://cdn3.vectorstock.com/i/1000x1000/92/47/syphilis-chancre-treponema-pallidum-vector-21109247.jpg" alt="Sifa"width="55%"></div>
+                <p>Сифилис является предотвратимой и излечимой бактериальной инфекцией, передающейся половым путем (ИППП). При отсутствии лечения он может привести к серьезным проблемам со здоровьем.
+                    У многих людей с сифилисом симптомы не проявляются или остаются незамеченными.
+                    Заражение сифилисом происходит при оральном, вагинальном и анальном сексе, во время беременности и при переливании крови. При беременности сифилис может привести к мертворождению, смерти новорожденного и рождению ребенка с сифилисом (врожденный сифилис).
+                    Предотвратить заражение сифилисом может правильное и постоянное использование презервативов во время секса.
+                    Экспресс-тесты на сифилис могут дать результаты в течение нескольких минут, что позволяет начать лечение при первом же обращении к врачу.</p>
+            </section1>
+            <p><a name="sympthtoms"></a></p>
+            <header>
+                <h2>Симптомы</h2>
+            </header>
+            <section2>
+                <h4>Симптомы в целом</h4>
+                <p>Многие люди с сифилисом не замечают никаких симптомов. Симптомы сифилиса также могут ускользнуть от внимания врачей. Без соответствующего лечения сифилис протекает в течение многих лет. Различают несколько периодов развития сифилиса.</p>
+                <h4>Первичный сифилис (первичный период)</h4>
+                <p> Его продолжительность обычно составляет примерно 21 день;
+                    На половых органах, анусе или в другом месте появляется круглое, безболезненное, обычно твердое изъявление (шанкр);
+                    Шанкр может остаться незамеченным и заживает через 3–10 дней;
+                    В отсутствие лечения начинается вторичный период сифилиса.</p>
+                <h4>Вторичный сифилис</h4>
+                <p> Xарактеризуется незудящими высыпаниями, обычно на ладонях и подошвах ног;
+                    На месте шанкра в теплых и влажных областях тела, таких как половые губы или анус, появляются белые или серые поражения;
+                    Эти симптомы исчезают самостоятельно, без лечения.</p>
+                <h4>Скрытый (латентный) сифилис</h4>
+                <p> Часто наблюдается отсутствие симптомов;
+                    Без соответствующего лечения за несколько лет прогрессирует до третьей и последней стадии сифилиса (третичный период);
+                    Третичный сифилис может приводить к поражениям головного мозга и сердечно-сосудистой системы, а также другим нарушениям здоровья.</p>
+                <h4>У детей, рожденных с сифилисом</h4>
+                <p>Кожная сыпь;
+                Воспаление внутренних органов;
+                Анемия;
+                Поражения костей и суставов;
+                Неврологические состояния, включая слепоту, глухоту, менингит;
+                Отставание в развитии;
+                Судороги.</p>
+            </section2>
+            <p><a name="diagnosis"></a></p>
+            <header>
+                <h2>Диагностика</h2>
+            </header>
+            <section3>
+                <p>При постановке диагноза сифилиса учитываются клинический и половой анамнез, результаты физикального обследования, лабораторных исследований и иногда рентгенологического исследования, поскольку симптомы заболевания не являются характерными или выраженными.
+                    Возбудителем сифилиса является бактерия Treponema pallidum (бледная трипонема). Лабораторные анализы на сифилис включают прямое обнаружение T. pallidum с помощью микроскопа или непрямые методы обнаружения, такие как анализы крови. Существуют также экспресс-тесты, которые могут дать результаты в течение нескольких минут, что позволяет немедленно начать лечение.                    
+                    Выявление субклинической (бессимптомной) инфекции с помощью лабораторных исследований или экспресс-тестов и назначение соответствующего лечения в случае положительного результата позволяют предотвратить дальнейшую передачу инфекции и возникновение осложнений, а также неблагоприятные исходы беременности, включая развитие врожденного сифилиса. </p>
+            </section3>
+            <p><a name="cure"></a></p>
+            <header>
+                <h2>Лечение</h2>
+            </header>
+            <section4>
+                <p>Сифилис предотвратим и излечим. Людям, которые подозревают, что у них может быть сифилис, следует обратиться за консультацией к лечащему врачу.
+                    На ранней стадии для лечения сифилиса назначаются инъекции бензатин-пенициллина (BPG). BPG является препаратом первого ряда для лечения сифилиса и единственным препаратом, рекомендованным ВОЗ для лечения сифилиса у беременных женщин. В качестве лечения вторичного ряда также могут назначаться такие антибиотики, как доксициклин, цефтриаксон или азитромицин.
+                    BPG применяется и на более поздних стадиях заболевания, но при таком лечении требуется большее количество доз. Обычно назначается одна доза препарата в неделю в течение трех недель, в том числе в тех случаях, когда не удается определить период развития инфекции.
+                    Применение BPG может обеспечить профилактику передачи сифилиса от матери ребенку. Дети, родившиеся с сифилисом (врожденный сифилис), или дети, рожденные у матерей с непролеченным сифилисом, нуждаются в немедленном лечении во избежание серьезных проблем со здоровьем.</p>
+            </section4>
+            <p><a href="#top">Наверх</a></p>
+            <footer>
+                <p><a name="history"></a></p>
+                <hr>
+                <h4>Источник информации</h4>
+                <address>
+                    <a href="https://www.who.int/ru/news-room/fact-sheets/detail/syphilis">жмяк</a>
+                </address>
+            </footer>
+        </article>
+
+    </main>
     <footer>
-        <p>&copy; 2024 Стоматологическое Превосходство. Все права защищены.</p>
+        <p><a href="#link"></a></p>
+        <hr>
+        <h4>Информация о разработчиках, контакты</h4>
+        <hr>
+        <address>
+            <a href="https://vk.com/kalbasniy_cheburek">Автор,гений,филантроп</a>
+        </address>
     </footer>
+    <script src="js\scripts.js"></script>
 </body>
+
 </html>
