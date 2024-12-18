@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Популяционная динамика</title>
+    <meta name="description" content="Информация о сифилисе">
+    <meta name="author" content="Изменено по запросу">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Основные стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+        .header {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .nav {
+            background-color: #004080;
+            padding: 10px;
+        }
+        .nav .nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .nav .nav-item {
+            margin: 0 15px;
+        }
+        .nav .nav-link {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .nav .nav-link:hover {
+            text-decoration: underline;
+        }
+        .main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #004080;
+        }
+        .footer {
+            background-color: #002a5c;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .section img {
+            max-width: 50%;
+            border-radius: 8px;
+        }
+        .section p {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Венерическое инфекционное заболевание</h1>
+    </div>
+    <div class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#sifa">Общая информация</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sympthtoms">Симптомы</a></li>
+            <li class="nav-item"><a class="nav-link" href="#diagnosis">Диагностика</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cure">Лечение</a></li>
+            <li class="nav-item"><a class="nav-link" href="#history">Источник</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2 id="sifa">Сифилис</h2>
+        <div class="section">
+            <img src="images/general_info.jpg" alt="Общая информация о сифилисе">
+            <p>Сифилис является предотвратимой и излечимой бактериальной инфекцией...</p>
+        </div>
+        <div class="section" id="sympthtoms">
+            <img src="images/symptoms.jpg" alt="Симптомы сифилиса">
+            <div>
+                <h3>Симптомы</h3>
+                <h4>Первичный сифилис</h4>
+                <p>Его продолжительность обычно составляет...</p>
+            </div>
+        </div>
+        <div class="section" id="diagnosis">
+            <img src="images/diagnosis.jpg" alt="Диагностика сифилиса">
+            <div>
+                <h3>Диагностика</h3>
+                <p>При постановке диагноза сифилиса учитываются клинический и половой анамнез...</p>
+            </div>
+        </div>
+        <div class="section" id="cure">
+            <img src="images/treatment.jpg" alt="Лечение сифилиса">
+            <div>
+                <h3>Лечение</h3>
+                <p>Сифилис предотвратим и излечим...</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h4>Источник информации</h4>
+        <p><a href="https://www.who.int/ru/news-room/fact-sheets/detail/syphilis" style="color: #cce7ff;">Жмяк</a></p>
+    </div>
+</body>
+
+</html>
