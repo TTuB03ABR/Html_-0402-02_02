@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header,
+footer {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: left;
+    
+}
+.letter1 {
+    color: black;
+    text-decoration-line: underline;
+    font-size: 120%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h4 {
+    text-align: left;
+    font-size: 400%;
+    background-color: rgb(240, 250, 249);
+}
+h2 {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 70px;
+    margin-right: 25px;
+}
+.container 2{
+    padding: -25px;
+}
+    
